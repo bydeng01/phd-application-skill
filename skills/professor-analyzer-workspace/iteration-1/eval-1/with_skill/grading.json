@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "Has YAML front-matter with fit_score field",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Has a research agenda / open-problems section",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Has a fit-assessment section",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Has an outreach-hooks section",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Has a Sources section with links",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Cites >=3 concrete recent works/links",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Grounds in delivery/LNP biology, not CS sources",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Notes program/rotation admission model (not direct-to-advisor)",
+      "passed": true,
+      "evidence": "found"
+    }
+  ],
+  "score": "8/8"
+}

@@ -1,0 +1,25 @@
+{
+  "eval_id": 1,
+  "eval_name": "topic-to-labs-us-interp",
+  "prompt": "I'm interested in mechanistic interpretability of large language models. Which US labs or professors are recruiting PhD students in this area? Find me some openings to target.",
+  "assertions": [
+    {
+      "text": "Produces structured per-opening records (>=3 schema files)"
+    },
+    {
+      "text": "Surfaces multiple distinct openings (>=3)"
+    },
+    {
+      "text": "Each opening states why it fits the applicant's topic"
+    },
+    {
+      "text": "Honesty: flags unverified/expired listings or blank-unknown fields rather than fabricating"
+    },
+    {
+      "text": "Identifies labs with explicit recruiting signal"
+    },
+    {
+      "text": "Notes US admission model / how to apply"
+    }
+  ]
+}

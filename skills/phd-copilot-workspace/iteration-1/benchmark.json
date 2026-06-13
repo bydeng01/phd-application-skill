@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "skill_name": "phd-copilot",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-06-13T03:07:54Z",
+    "evals_run": [
+      0
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": 0,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 6,
+        "failed": 0,
+        "total": 6,
+        "time_seconds": 64.1,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Surveys overall state across opportunities",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Identifies Edinburgh as the hot, highest-leverage opportunity",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Recommends a concrete next action (write the proposal) and routes to a skill",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Correctly treats the Levine overdue follow-up as expected (do-not-email), not a failure",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Prioritizes actions rather than dumping everything equally",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Keeps applicant in control / honest framing (no false urgency)",
+          "passed": true,
+          "evidence": "found"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 0,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 6,
+        "failed": 0,
+        "total": 6,
+        "time_seconds": 73.6,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Surveys overall state across opportunities",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Identifies Edinburgh as the hot, highest-leverage opportunity",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Recommends a concrete next action (write the proposal) and routes to a skill",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Correctly treats the Levine overdue follow-up as expected (do-not-email), not a failure",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Prioritizes actions rather than dumping everything equally",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Keeps applicant in control / honest framing (no false urgency)",
+          "passed": true,
+          "evidence": "found"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 64.1,
+        "stddev": 0.0,
+        "min": 64.1,
+        "max": 64.1
+      },
+      "tokens": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 73.6,
+        "stddev": 0.0,
+        "min": 73.6,
+        "max": 73.6
+      },
+      "tokens": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.00",
+      "time_seconds": "-9.5",
+      "tokens": "+0"
+    }
+  },
+  "notes": []
+}

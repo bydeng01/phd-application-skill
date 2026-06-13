@@ -1,0 +1,25 @@
+{
+  "eval_id": 0,
+  "eval_name": "rank-rl-shortlist",
+  "prompt": "Rank my PhD options and tell me where to focus. Everything is already in my knowledge base.",
+  "assertions": [
+    {
+      "text": "Produces a ranked table/shortlist"
+    },
+    {
+      "text": "Does NOT just sort by fit_score (funded above higher-fit Levine)"
+    },
+    {
+      "text": "Honors the funding dealbreaker explicitly"
+    },
+    {
+      "text": "Flags Levine as a selective reach / admission realism"
+    },
+    {
+      "text": "Gives per-item rationale"
+    },
+    {
+      "text": "Includes a portfolio-balance note"
+    }
+  ]
+}

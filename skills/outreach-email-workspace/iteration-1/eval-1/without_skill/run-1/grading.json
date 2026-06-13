@@ -1,0 +1,40 @@
+{
+  "expectations": [
+    {
+      "text": "Treats it as a follow-up (references the prior email / date)",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Adds value / new angle rather than only bumping",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Polite & not pushy (graceful exit / easy to ignore)",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Draft only \u2014 does not claim to have sent",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Logs updated interaction with next follow-up date (skill differentiator)",
+      "passed": false,
+      "evidence": "missing"
+    }
+  ],
+  "summary": {
+    "pass_rate": 0.8,
+    "passed": 4,
+    "failed": 1,
+    "total": 5
+  },
+  "timing": {
+    "total_tokens": 17907,
+    "duration_ms": 18833,
+    "total_duration_seconds": 18.8
+  }
+}

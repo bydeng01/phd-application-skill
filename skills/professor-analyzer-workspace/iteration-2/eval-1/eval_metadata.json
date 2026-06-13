@@ -1,0 +1,28 @@
+{
+  "eval_id": 1,
+  "eval_name": "cross-field-biochem",
+  "prompt": "Look into Professor Jennifer Doudna's lab at UC Berkeley for a PhD. My background is biochemistry \u2014 I did two years of undergrad research on lipid nanoparticle delivery of CRISPR components and I'm interested in gene-editing therapeutics. Is this a good lab for me and what would I want to highlight in outreach?",
+  "assertions": [
+    {
+      "text": "Schema front-matter with fit_score"
+    },
+    {
+      "text": "Has fit-assessment + outreach-hooks sections"
+    },
+    {
+      "text": "Sources section with links"
+    },
+    {
+      "text": "No fabrication: flags uncertainty / unavailable enrichment honestly"
+    },
+    {
+      "text": "Captures explicit contact/application rules (do-not-email / program routing) in the profile"
+    },
+    {
+      "text": "Routes hooks to SOP/application when cold email is discouraged"
+    },
+    {
+      "text": "Grounds in delivery/LNP biology (field-agnostic)"
+    }
+  ]
+}

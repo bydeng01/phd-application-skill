@@ -1,0 +1,22 @@
+{
+  "eval_id": 1,
+  "eval_name": "followup-no-reply",
+  "prompt": "Professor O'Keefe at Edinburgh hasn't replied to the email I sent about two weeks ago. Can you write a follow-up?",
+  "assertions": [
+    {
+      "text": "Treats it as a follow-up (references the prior email / date)"
+    },
+    {
+      "text": "Adds value / new angle rather than only bumping"
+    },
+    {
+      "text": "Polite & not pushy (graceful exit)"
+    },
+    {
+      "text": "Draft only \u2014 does not claim to have sent"
+    },
+    {
+      "text": "Logs updated interaction with next follow-up date (skill differentiator)"
+    }
+  ]
+}

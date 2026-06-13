@@ -1,0 +1,26 @@
+{
+  "skill_name": "professor-analyzer",
+  "evals": [
+    {
+      "id": 0,
+      "name": "strong-fit-rl-robotics",
+      "prompt": "I'm finishing a master's in computer science and my research is on reinforcement learning for robotics — mostly sim-to-real transfer, and I have one workshop paper on domain randomization. I'm applying for PhDs starting in 2027. Can you do a deep dive on Professor Sergey Levine at UC Berkeley and tell me whether he'd be a good PhD fit for me? If he's a fit, I'd want to know what to mention if I email him.",
+      "expected_output": "A structured professor profile written to knowledge-base/professors/ covering recent publications (with takeaways), research agenda/open problems, funding/lab signals, a justified fit assessment with a numeric score, and 2-4 concrete outreach hooks grounded in his real recent work. Should be strong fit, well-evidenced, with real citations.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "cross-field-biochem",
+      "prompt": "Look into Professor Jennifer Doudna's lab at UC Berkeley for a PhD. My background is biochemistry — I did two years of undergrad research on lipid nanoparticle delivery of CRISPR components and I'm interested in gene-editing therapeutics. Is this a good lab for me and what would I want to highlight in outreach?",
+      "expected_output": "A structured profile for a life-sciences PI, demonstrating the skill is field-agnostic (uses bio-appropriate sources, not just arXiv). Recent work with takeaways, agenda, fit assessment vs. the applicant's CRISPR-delivery background, concrete hooks. Real publications cited.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "weak-fit-honesty",
+      "prompt": "I want to do a PhD in natural language processing, specifically multilingual large language models and low-resource languages. Analyze Professor Fei-Fei Li at Stanford and tell me if she's a good supervisor for me.",
+      "expected_output": "An honest assessment that flags a fit GAP — Fei-Fei Li is primarily computer vision / spatial intelligence, not multilingual NLP. A good output should NOT force a strong match; it should give a low-to-moderate fit score, name the divergence specifically, and avoid fabricating NLP work. Tests intellectual honesty over flattery.",
+      "files": []
+    }
+  ]
+}

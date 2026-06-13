@@ -1,0 +1,423 @@
+{
+  "metadata": {
+    "skill_name": "professor-analyzer",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-06-13T02:20:26Z",
+    "evals_run": [
+      0,
+      1,
+      2
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": 0,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 109.3,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Has YAML front-matter with fit_score field",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has a research agenda / open-problems section",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has a fit-assessment section",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has an outreach-hooks section",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has a Sources section with links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Cites >=3 concrete recent works/links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Strong fit score (>=70) for on-target RL/robotics match",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Reframes sim-to-real toward lab's real-world/foundation-model direction",
+          "passed": true,
+          "evidence": "found"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 127.6,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Has YAML front-matter with fit_score field",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has a research agenda / open-problems section",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has a fit-assessment section",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has an outreach-hooks section",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has a Sources section with links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Cites >=3 concrete recent works/links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Grounds in delivery/LNP biology, not CS sources",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Notes program/rotation admission model (not direct-to-advisor)",
+          "passed": true,
+          "evidence": "found"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 9,
+        "failed": 0,
+        "total": 9,
+        "time_seconds": 106.5,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Has YAML front-matter with fit_score field",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has a research agenda / open-problems section",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has a fit-assessment section",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has an outreach-hooks section",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has a Sources section with links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Cites >=3 concrete recent works/links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Honest LOW fit score (<=40) rather than forced match",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Explicitly flags the CV-vs-NLP divergence",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Does NOT fabricate multilingual-NLP hooks",
+          "passed": true,
+          "evidence": "found"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 0,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.5,
+        "passed": 4,
+        "failed": 4,
+        "total": 8,
+        "time_seconds": 113.4,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Has YAML front-matter with fit_score field",
+          "passed": false,
+          "evidence": "missing"
+        },
+        {
+          "text": "Has a research agenda / open-problems section",
+          "passed": false,
+          "evidence": "missing"
+        },
+        {
+          "text": "Has a fit-assessment section",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has an outreach-hooks section",
+          "passed": false,
+          "evidence": "missing"
+        },
+        {
+          "text": "Has a Sources section with links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Cites >=3 concrete recent works/links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Strong fit score (>=70) for on-target RL/robotics match",
+          "passed": false,
+          "evidence": "missing"
+        },
+        {
+          "text": "Reframes sim-to-real toward lab's real-world/foundation-model direction",
+          "passed": true,
+          "evidence": "found"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.75,
+        "passed": 6,
+        "failed": 2,
+        "total": 8,
+        "time_seconds": 100.2,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Has YAML front-matter with fit_score field",
+          "passed": false,
+          "evidence": "missing"
+        },
+        {
+          "text": "Has a research agenda / open-problems section",
+          "passed": false,
+          "evidence": "missing"
+        },
+        {
+          "text": "Has a fit-assessment section",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has an outreach-hooks section",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has a Sources section with links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Cites >=3 concrete recent works/links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Grounds in delivery/LNP biology, not CS sources",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Notes program/rotation admission model (not direct-to-advisor)",
+          "passed": true,
+          "evidence": "found"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.5556,
+        "passed": 5,
+        "failed": 4,
+        "total": 9,
+        "time_seconds": 64.2,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Has YAML front-matter with fit_score field",
+          "passed": false,
+          "evidence": "missing"
+        },
+        {
+          "text": "Has a research agenda / open-problems section",
+          "passed": false,
+          "evidence": "missing"
+        },
+        {
+          "text": "Has a fit-assessment section",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has an outreach-hooks section",
+          "passed": false,
+          "evidence": "missing"
+        },
+        {
+          "text": "Has a Sources section with links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Cites >=3 concrete recent works/links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Honest LOW fit score (<=40) rather than forced match",
+          "passed": false,
+          "evidence": "missing"
+        },
+        {
+          "text": "Explicitly flags the CV-vs-NLP divergence",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Does NOT fabricate multilingual-NLP hooks",
+          "passed": true,
+          "evidence": "found"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 114.4667,
+        "stddev": 11.4596,
+        "min": 106.5,
+        "max": 127.6
+      },
+      "tokens": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.6019,
+        "stddev": 0.1313,
+        "min": 0.5,
+        "max": 0.75
+      },
+      "time_seconds": {
+        "mean": 92.6,
+        "stddev": 25.4653,
+        "min": 64.2,
+        "max": 113.4
+      },
+      "tokens": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.40",
+      "time_seconds": "+21.9",
+      "tokens": "+0"
+    }
+  },
+  "notes": []
+}

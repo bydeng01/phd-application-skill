@@ -1,0 +1,28 @@
+{
+  "eval_id": 0,
+  "eval_name": "strong-fit-rl-robotics",
+  "prompt": "I'm finishing a master's in computer science and my research is on reinforcement learning for robotics \u2014 mostly sim-to-real transfer, and I have one workshop paper on domain randomization. I'm applying for PhDs starting in 2027. Can you do a deep dive on Professor Sergey Levine at UC Berkeley and tell me whether he'd be a good PhD fit for me? If he's a fit, I'd want to know what to mention if I email him.",
+  "assertions": [
+    {
+      "text": "Schema front-matter with fit_score"
+    },
+    {
+      "text": "Has fit-assessment + outreach-hooks sections"
+    },
+    {
+      "text": "Sources section with links"
+    },
+    {
+      "text": "No fabrication: flags uncertainty / unavailable enrichment honestly"
+    },
+    {
+      "text": "Captures explicit contact/application rules (do-not-email / program routing) in the profile"
+    },
+    {
+      "text": "Routes hooks to SOP/application when cold email is discouraged"
+    },
+    {
+      "text": "Strong fit (>=70) for on-target RL match"
+    }
+  ]
+}

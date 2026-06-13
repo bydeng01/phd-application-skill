@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "Produces structured per-opening records (>=3 schema files)",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Surfaces multiple distinct openings (>=3)",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Each opening states why it fits the applicant's topic",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Honesty: flags unverified/expired listings or blank-unknown fields rather than fabricating",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Identifies labs with explicit recruiting signal",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Notes US admission model / how to apply",
+      "passed": true,
+      "evidence": "found"
+    }
+  ],
+  "summary": {
+    "pass_rate": 1.0,
+    "passed": 6,
+    "failed": 0,
+    "total": 6
+  },
+  "timing": {
+    "total_tokens": 58074,
+    "duration_ms": 165149,
+    "total_duration_seconds": 165.1
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "metadata": {
+    "skill_name": "professor-analyzer",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-06-13T03:26:18Z",
+    "evals_run": [
+      0,
+      1,
+      2
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": 0,
+      "configuration": "new_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 138.1,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Schema front-matter with fit_score",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has fit-assessment + outreach-hooks sections",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Sources section with links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "No fabrication: flags uncertainty / unavailable enrichment honestly",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Captures explicit contact/application rules (do-not-email / program routing) in the profile",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Routes hooks to SOP/application when cold email is discouraged",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Strong fit (>=70) for on-target RL match",
+          "passed": true,
+          "evidence": "found"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "new_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 130.6,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Schema front-matter with fit_score",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has fit-assessment + outreach-hooks sections",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Sources section with links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "No fabrication: flags uncertainty / unavailable enrichment honestly",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Captures explicit contact/application rules (do-not-email / program routing) in the profile",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Routes hooks to SOP/application when cold email is discouraged",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Grounds in delivery/LNP biology (field-agnostic)",
+          "passed": true,
+          "evidence": "found"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "new_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 7,
+        "failed": 0,
+        "total": 7,
+        "time_seconds": 112.8,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Schema front-matter with fit_score",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has fit-assessment + outreach-hooks sections",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Sources section with links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "No fabrication: flags uncertainty / unavailable enrichment honestly",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Captures explicit contact/application rules (do-not-email / program routing) in the profile",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Routes hooks to SOP/application when cold email is discouraged",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Honest LOW fit (<=40), not forced",
+          "passed": true,
+          "evidence": "found"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 0,
+      "configuration": "old_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.8571,
+        "passed": 6,
+        "failed": 1,
+        "total": 7,
+        "time_seconds": 115.7,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Schema front-matter with fit_score",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has fit-assessment + outreach-hooks sections",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Sources section with links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "No fabrication: flags uncertainty / unavailable enrichment honestly",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Captures explicit contact/application rules (do-not-email / program routing) in the profile",
+          "passed": false,
+          "evidence": "missing"
+        },
+        {
+          "text": "Routes hooks to SOP/application when cold email is discouraged",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Strong fit (>=70) for on-target RL match",
+          "passed": true,
+          "evidence": "found"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "old_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.8571,
+        "passed": 6,
+        "failed": 1,
+        "total": 7,
+        "time_seconds": 111.8,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Schema front-matter with fit_score",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has fit-assessment + outreach-hooks sections",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Sources section with links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "No fabrication: flags uncertainty / unavailable enrichment honestly",
+          "passed": false,
+          "evidence": "missing"
+        },
+        {
+          "text": "Captures explicit contact/application rules (do-not-email / program routing) in the profile",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Routes hooks to SOP/application when cold email is discouraged",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Grounds in delivery/LNP biology (field-agnostic)",
+          "passed": true,
+          "evidence": "found"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "old_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.7143,
+        "passed": 5,
+        "failed": 2,
+        "total": 7,
+        "time_seconds": 91.0,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Schema front-matter with fit_score",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Has fit-assessment + outreach-hooks sections",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Sources section with links",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "No fabrication: flags uncertainty / unavailable enrichment honestly",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Captures explicit contact/application rules (do-not-email / program routing) in the profile",
+          "passed": false,
+          "evidence": "missing"
+        },
+        {
+          "text": "Routes hooks to SOP/application when cold email is discouraged",
+          "passed": false,
+          "evidence": "missing"
+        },
+        {
+          "text": "Honest LOW fit (<=40), not forced",
+          "passed": true,
+          "evidence": "found"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "new_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 127.1667,
+        "stddev": 12.9947,
+        "min": 112.8,
+        "max": 138.1
+      },
+      "tokens": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "old_skill": {
+      "pass_rate": {
+        "mean": 0.8095,
+        "stddev": 0.0824,
+        "min": 0.7143,
+        "max": 0.8571
+      },
+      "time_seconds": {
+        "mean": 106.1667,
+        "stddev": 13.2787,
+        "min": 91.0,
+        "max": 115.7
+      },
+      "tokens": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.19",
+      "time_seconds": "+21.0",
+      "tokens": "+0"
+    }
+  },
+  "notes": []
+}

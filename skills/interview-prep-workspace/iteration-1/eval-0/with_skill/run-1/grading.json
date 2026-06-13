@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "Covers multiple question categories (motivation, own work, lab work, technical)",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Questions grounded in O'Keefe's real papers/agenda",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Provides model answers AND coaching notes",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Includes questions for the applicant to ask back",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Coaches honesty over fabrication; [brackets] for personal specifics",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Offers an interactive mock interview",
+      "passed": false,
+      "evidence": "missing"
+    }
+  ],
+  "summary": {
+    "pass_rate": 0.8333,
+    "passed": 5,
+    "failed": 1,
+    "total": 6
+  },
+  "timing": {
+    "total_tokens": 27363,
+    "duration_ms": 104466,
+    "total_duration_seconds": 104.5
+  }
+}

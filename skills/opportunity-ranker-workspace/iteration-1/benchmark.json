@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "skill_name": "opportunity-ranker",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-06-13T02:45:35Z",
+    "evals_run": [
+      0
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": 0,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 6,
+        "failed": 0,
+        "total": 6,
+        "time_seconds": 53.0,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Produces a ranked table/shortlist",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Does NOT just sort by fit_score (funded Edinburgh/GT above higher-fit Levine)",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Honors the funding dealbreaker explicitly",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Flags Levine as a selective reach / admission realism",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Gives per-item rationale (why each ranks where)",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Includes a portfolio-balance note",
+          "passed": true,
+          "evidence": "found"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 0,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.8333,
+        "passed": 5,
+        "failed": 1,
+        "total": 6,
+        "time_seconds": 47.5,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Produces a ranked table/shortlist",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Does NOT just sort by fit_score (funded Edinburgh/GT above higher-fit Levine)",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Honors the funding dealbreaker explicitly",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Flags Levine as a selective reach / admission realism",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Gives per-item rationale (why each ranks where)",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Includes a portfolio-balance note",
+          "passed": false,
+          "evidence": "missing"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 53.0,
+        "stddev": 0.0,
+        "min": 53.0,
+        "max": 53.0
+      },
+      "tokens": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.8333,
+        "stddev": 0.0,
+        "min": 0.8333,
+        "max": 0.8333
+      },
+      "time_seconds": {
+        "mean": 47.5,
+        "stddev": 0.0,
+        "min": 47.5,
+        "max": 47.5
+      },
+      "tokens": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.17",
+      "time_seconds": "+5.5",
+      "tokens": "+0"
+    }
+  },
+  "notes": []
+}

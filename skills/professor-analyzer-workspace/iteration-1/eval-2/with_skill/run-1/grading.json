@@ -1,0 +1,61 @@
+{
+  "expectations": [
+    {
+      "text": "Has YAML front-matter with fit_score field",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Has a research agenda / open-problems section",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Has a fit-assessment section",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Has an outreach-hooks section",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Has a Sources section with links",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Cites >=3 concrete recent works/links",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Honest LOW fit score (<=40) rather than forced match",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Explicitly flags the CV-vs-NLP divergence",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Does NOT fabricate multilingual-NLP hooks",
+      "passed": true,
+      "evidence": "found"
+    }
+  ],
+  "score": "9/9",
+  "summary": {
+    "pass_rate": 1.0,
+    "passed": 9,
+    "failed": 0,
+    "total": 9
+  },
+  "timing": {
+    "total_tokens": 33251,
+    "duration_ms": 106466,
+    "total_duration_seconds": 106.5
+  }
+}

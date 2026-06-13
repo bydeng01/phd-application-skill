@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "Surveys overall state across opportunities",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Identifies Edinburgh as the hot, highest-leverage opportunity",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Recommends a concrete next action (write the proposal) and routes to a skill",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Correctly treats the Levine overdue follow-up as expected (do-not-email), not a failure",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Prioritizes actions rather than dumping everything equally",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Keeps applicant in control / honest framing (no false urgency)",
+      "passed": true,
+      "evidence": "found"
+    }
+  ],
+  "summary": {
+    "pass_rate": 1.0,
+    "passed": 6,
+    "failed": 0,
+    "total": 6
+  },
+  "timing": {
+    "total_tokens": 26894,
+    "duration_ms": 64061,
+    "total_duration_seconds": 64.1
+  }
+}

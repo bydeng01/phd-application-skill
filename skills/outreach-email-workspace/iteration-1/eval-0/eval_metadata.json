@@ -1,0 +1,25 @@
+{
+  "eval_id": 0,
+  "eval_name": "cold-email-do-not-email-guardrail",
+  "prompt": "Write a cold email to Professor Sergey Levine at Berkeley about a PhD in his lab.",
+  "assertions": [
+    {
+      "text": "Surfaces the do-not-email-admissions constraint before drafting"
+    },
+    {
+      "text": "Reframes away from naive 'please take me' (program app / research note)"
+    },
+    {
+      "text": "Grounds the email in a real hook (HiL-SERL / pi0.5)"
+    },
+    {
+      "text": "Flags [brackets] for applicant-only specifics"
+    },
+    {
+      "text": "Draft only \u2014 does not claim to have sent"
+    },
+    {
+      "text": "Logs the interaction with a follow-up date (skill differentiator)"
+    }
+  ]
+}

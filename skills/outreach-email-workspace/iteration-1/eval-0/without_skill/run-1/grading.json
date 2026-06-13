@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "Surfaces the do-not-email-admissions constraint before drafting",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Reframes away from naive 'please take me' (program app / research note)",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Grounds the email in a real hook (HiL-SERL / pi0.5)",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Flags [brackets] for applicant-only specifics",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Draft only \u2014 does not claim to have sent",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Logs the interaction with a follow-up date (skill differentiator)",
+      "passed": false,
+      "evidence": "missing"
+    }
+  ],
+  "summary": {
+    "pass_rate": 0.8333,
+    "passed": 5,
+    "failed": 1,
+    "total": 6
+  },
+  "timing": {
+    "total_tokens": 19742,
+    "duration_ms": 44166,
+    "total_duration_seconds": 44.2
+  }
+}

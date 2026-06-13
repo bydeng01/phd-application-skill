@@ -1,0 +1,25 @@
+{
+  "eval_id": 0,
+  "eval_name": "phd-copilot-core",
+  "prompt": "Be my PhD application copilot. Where am I across everything, and what should I do next?",
+  "assertions": [
+    {
+      "text": "Surveys overall state across opportunities"
+    },
+    {
+      "text": "Identifies Edinburgh as the hot, highest-leverage opportunity"
+    },
+    {
+      "text": "Recommends a concrete next action (write the proposal) and routes to a skill"
+    },
+    {
+      "text": "Correctly treats the Levine overdue follow-up as expected (do-not-email), not a failure"
+    },
+    {
+      "text": "Prioritizes actions rather than dumping everything equally"
+    },
+    {
+      "text": "Keeps applicant in control / honest framing (no false urgency)"
+    }
+  ]
+}

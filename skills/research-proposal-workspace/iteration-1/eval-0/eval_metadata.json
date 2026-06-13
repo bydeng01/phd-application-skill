@@ -1,0 +1,25 @@
+{
+  "eval_id": 0,
+  "eval_name": "research-proposal-core",
+  "prompt": "Write a PhD research proposal for Professor O'Keefe's lab at Edinburgh, tied to her dexterous-manipulation work.",
+  "assertions": [
+    {
+      "text": "Has the proposal section structure (motivation, methods, risks, fit)"
+    },
+    {
+      "text": "Targets O'Keefe's named open problems (tactile randomization / sample-efficient fine-tuning)"
+    },
+    {
+      "text": "Builds on the applicant's REAL background (curriculum DR / UR5 / MuJoCo)"
+    },
+    {
+      "text": "Honestly bridges the vision-vs-tactile gap rather than faking tactile experience"
+    },
+    {
+      "text": "No fabricated results \u2014 uses [brackets] for applicant-only specifics"
+    },
+    {
+      "text": "Cites the professor's real papers (2024/2025)"
+    }
+  ]
+}

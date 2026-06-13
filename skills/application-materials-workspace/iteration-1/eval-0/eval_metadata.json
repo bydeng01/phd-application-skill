@@ -1,0 +1,25 @@
+{
+  "eval_id": 0,
+  "eval_name": "application-materials-core",
+  "prompt": "Write a tailored statement of purpose for the Edinburgh dexterous-manipulation PhD position with Professor O'Keefe.",
+  "assertions": [
+    {
+      "text": "Follows an SOP arc (opening, trajectory, why-this-lab, goals)"
+    },
+    {
+      "text": "Names O'Keefe's specific work / open problems"
+    },
+    {
+      "text": "Uses only real CV material (88%/UR5/CoRL workshop)"
+    },
+    {
+      "text": "Handles the tactile gap honestly (doesn't claim tactile experience)"
+    },
+    {
+      "text": "Marks [brackets] for applicant-only specifics"
+    },
+    {
+      "text": "Avoids generic clich\u00e9s (no 'since childhood')"
+    }
+  ]
+}

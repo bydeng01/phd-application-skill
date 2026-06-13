@@ -1,0 +1,25 @@
+{
+  "eval_id": 0,
+  "eval_name": "funded-gnn-europe",
+  "prompt": "Find me fully-funded PhD positions on graph neural networks or geometric deep learning in the UK or Europe, starting 2027. I need funding.",
+  "assertions": [
+    {
+      "text": "Produces structured per-opening records (>=3 schema files)"
+    },
+    {
+      "text": "Surfaces multiple distinct openings (>=3)"
+    },
+    {
+      "text": "Each opening states why it fits the applicant's topic"
+    },
+    {
+      "text": "Honesty: flags unverified/expired listings or blank-unknown fields rather than fabricating"
+    },
+    {
+      "text": "Honors the funding requirement (excludes/flag self-funded)"
+    },
+    {
+      "text": "Respects 2027 start-year filter (distinguishes 2026 vs 2027)"
+    }
+  ]
+}

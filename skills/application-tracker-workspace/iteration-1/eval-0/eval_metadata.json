@@ -1,0 +1,25 @@
+{
+  "eval_id": 0,
+  "eval_name": "status-what-needs-attention",
+  "prompt": "Where am I with all my PhD applications? What needs my attention right now?",
+  "assertions": [
+    {
+      "text": "Leads with the OVERDUE Levine follow-up"
+    },
+    {
+      "text": "Surfaces Edinburgh deadline due soon with days remaining"
+    },
+    {
+      "text": "Flags missing documents (writing sample / reference letter)"
+    },
+    {
+      "text": "Identifies waiting-on-others (Garcia submitted)"
+    },
+    {
+      "text": "Keeps on-track/low items brief"
+    },
+    {
+      "text": "Offers recurring digest (skill differentiator)"
+    }
+  ]
+}

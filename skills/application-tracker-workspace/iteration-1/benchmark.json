@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "skill_name": "application-tracker",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-06-13T02:59:01Z",
+    "evals_run": [
+      0
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": 0,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 6,
+        "failed": 0,
+        "total": 6,
+        "time_seconds": 52.4,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Leads with the OVERDUE Levine follow-up (9 days overdue)",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Surfaces Edinburgh deadline due soon with days remaining",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Flags missing documents (writing sample / reference letter)",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Identifies waiting-on-others (Garcia submitted / committee)",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Keeps on-track/low items brief rather than enumerating",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "No fabricated dates (reads from files) + offers recurring digest",
+          "passed": true,
+          "evidence": "found"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 0,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.8333,
+        "passed": 5,
+        "failed": 1,
+        "total": 6,
+        "time_seconds": 35.2,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Leads with the OVERDUE Levine follow-up (9 days overdue)",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Surfaces Edinburgh deadline due soon with days remaining",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Flags missing documents (writing sample / reference letter)",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Identifies waiting-on-others (Garcia submitted / committee)",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "Keeps on-track/low items brief rather than enumerating",
+          "passed": true,
+          "evidence": "found"
+        },
+        {
+          "text": "No fabricated dates (reads from files) + offers recurring digest",
+          "passed": false,
+          "evidence": "missing"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 52.4,
+        "stddev": 0.0,
+        "min": 52.4,
+        "max": 52.4
+      },
+      "tokens": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.8333,
+        "stddev": 0.0,
+        "min": 0.8333,
+        "max": 0.8333
+      },
+      "time_seconds": {
+        "mean": 35.2,
+        "stddev": 0.0,
+        "min": 35.2,
+        "max": 35.2
+      },
+      "tokens": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.17",
+      "time_seconds": "+17.2",
+      "tokens": "+0"
+    }
+  },
+  "notes": []
+}

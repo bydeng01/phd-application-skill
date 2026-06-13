@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "Has the proposal section structure (motivation, methods, risks, fit)",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Targets O'Keefe's named open problems (tactile randomization / sample-efficient fine-tuning)",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Builds on the applicant's REAL background (curriculum DR / UR5 / MuJoCo)",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Honestly bridges the vision-vs-tactile gap rather than faking tactile experience",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "No fabricated results \u2014 uses [brackets] for applicant-only specifics",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Cites the professor's real papers (2024/2025)",
+      "passed": true,
+      "evidence": "found"
+    }
+  ],
+  "summary": {
+    "pass_rate": 1.0,
+    "passed": 6,
+    "failed": 0,
+    "total": 6
+  },
+  "timing": {
+    "total_tokens": 20900,
+    "duration_ms": 52559,
+    "total_duration_seconds": 52.6
+  }
+}

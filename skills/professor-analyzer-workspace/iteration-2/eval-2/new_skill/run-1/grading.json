@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Schema front-matter with fit_score",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Has fit-assessment + outreach-hooks sections",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Sources section with links",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "No fabrication: flags uncertainty / unavailable enrichment honestly",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Captures explicit contact/application rules (do-not-email / program routing) in the profile",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Routes hooks to SOP/application when cold email is discouraged",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Honest LOW fit (<=40), not forced",
+      "passed": true,
+      "evidence": "found"
+    }
+  ],
+  "summary": {
+    "pass_rate": 1.0,
+    "passed": 7,
+    "failed": 0,
+    "total": 7
+  },
+  "timing": {
+    "total_tokens": 36986,
+    "duration_ms": 112847,
+    "total_duration_seconds": 112.8
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "eval_id": 2,
+  "eval_name": "weak-fit-honesty",
+  "prompt": "I want to do a PhD in natural language processing, specifically multilingual large language models and low-resource languages. Analyze Professor Fei-Fei Li at Stanford and tell me if she's a good supervisor for me.",
+  "assertions": [
+    {
+      "text": "Schema front-matter with fit_score"
+    },
+    {
+      "text": "Has fit-assessment + outreach-hooks sections"
+    },
+    {
+      "text": "Sources section with links"
+    },
+    {
+      "text": "No fabrication: flags uncertainty / unavailable enrichment honestly"
+    },
+    {
+      "text": "Captures explicit contact/application rules (do-not-email / program routing) in the profile"
+    },
+    {
+      "text": "Routes hooks to SOP/application when cold email is discouraged"
+    },
+    {
+      "text": "Honest LOW fit (<=40), not forced"
+    }
+  ]
+}

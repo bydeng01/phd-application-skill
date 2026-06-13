@@ -1,0 +1,25 @@
+{
+  "eval_id": 0,
+  "eval_name": "interview-prep-core",
+  "prompt": "Professor O'Keefe invited me to an interview in July. Help me prepare \u00e2\u0080\u0094 what will she ask and how should I answer?",
+  "assertions": [
+    {
+      "text": "Covers multiple question categories (motivation, own work, lab work, technical)"
+    },
+    {
+      "text": "Questions grounded in O'Keefe's real papers/agenda"
+    },
+    {
+      "text": "Provides model answers AND coaching notes"
+    },
+    {
+      "text": "Includes questions for the applicant to ask back"
+    },
+    {
+      "text": "Coaches honesty over fabrication; [brackets] for personal specifics"
+    },
+    {
+      "text": "Offers an interactive mock interview"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "eval_id": 0,
+  "eval_name": "strong-fit-rl-robotics",
+  "prompt": "I'm finishing a master's in computer science and my research is on reinforcement learning for robotics \u2014 mostly sim-to-real transfer, and I have one workshop paper on domain randomization. I'm applying for PhDs starting in 2027. Can you do a deep dive on Professor Sergey Levine at UC Berkeley and tell me whether he'd be a good PhD fit for me? If he's a fit, I'd want to know what to mention if I email him.",
+  "assertions": [
+    {
+      "text": "Has YAML front-matter with fit_score field"
+    },
+    {
+      "text": "Has a research agenda / open-problems section"
+    },
+    {
+      "text": "Has a fit-assessment section"
+    },
+    {
+      "text": "Has an outreach-hooks section"
+    },
+    {
+      "text": "Has a Sources section with links"
+    },
+    {
+      "text": "Cites >=3 concrete recent works/links"
+    },
+    {
+      "text": "Strong fit score (>=70) for on-target RL/robotics match"
+    },
+    {
+      "text": "Reframes sim-to-real toward lab's real-world/foundation-model direction"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "Produces structured per-opening records (>=3 schema files)",
+      "passed": false,
+      "evidence": "missing"
+    },
+    {
+      "text": "Surfaces multiple distinct openings (>=3)",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Each opening states why it fits the applicant's topic",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Honesty: flags unverified/expired listings or blank-unknown fields rather than fabricating",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Honors the funding requirement (excludes/flag self-funded)",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Respects 2027 start-year filter (distinguishes 2026 vs 2027)",
+      "passed": true,
+      "evidence": "found"
+    }
+  ],
+  "summary": {
+    "pass_rate": 0.8333,
+    "passed": 5,
+    "failed": 1,
+    "total": 6
+  },
+  "timing": {
+    "total_tokens": 59153,
+    "duration_ms": 182999,
+    "total_duration_seconds": 183.0
+  }
+}

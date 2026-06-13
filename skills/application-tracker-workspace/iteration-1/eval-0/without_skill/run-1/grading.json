@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "Leads with the OVERDUE Levine follow-up (9 days overdue)",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Surfaces Edinburgh deadline due soon with days remaining",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Flags missing documents (writing sample / reference letter)",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Identifies waiting-on-others (Garcia submitted / committee)",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "Keeps on-track/low items brief rather than enumerating",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "text": "No fabricated dates (reads from files) + offers recurring digest",
+      "passed": false,
+      "evidence": "missing"
+    }
+  ],
+  "summary": {
+    "pass_rate": 0.8333,
+    "passed": 5,
+    "failed": 1,
+    "total": 6
+  },
+  "timing": {
+    "total_tokens": 21206,
+    "duration_ms": 35197,
+    "total_duration_seconds": 35.2
+  }
+}
